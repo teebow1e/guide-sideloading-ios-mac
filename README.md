@@ -4,6 +4,8 @@ This repository contains a script to sign a **decrypted** IPA with your own Appl
 
 > Note: This guide requires you to have a MacOS device with Xcode installed.
 
+> Note 2: Due to the limitation of a free developer certificate, certain advanced entitlements and app extensions (such as Network Extensions or Push Notifications) may be restricted or unavailable. This is the common cause of "installation of stuck at 49%", "AMDeviceSecureInstallApplication". 
+
 ## Requirements
 - macOS with Xcode + Command Line Tools (`codesign`, `security`, `PlistBuddy`).
 - `ios-deploy`: `brew install ios-deploy`.
